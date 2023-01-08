@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.btn {
+  background: rgb(176, 56, 130);
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+.nav-flex {
+  /* display: flex; */
+  position: relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.border-left {
+  position: absolute;
+  top: 170px;
+  right: 160px;
+}
+.img-fast {
+  width: 100%;
+}
+.main-flex {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+.mt-10 {
+  margin-top: 190px;
+}
+.justify-center {
+  text-align: center;
+  font-weight: bold;
+}
+.div-flex {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+
+.width-80 {
+  margin: auto;
+  width: 70%;
+  margin-top: 40px;
+  position: relative;
+  text-align: center;
+  color: rgba(2, 37, 6, 0.705);
+}
+.ab {
+  position: absolute;
+  top: 8px;
+  left: 160px;
+}
+.bg-black {
+  background: #151414;
+  display: flex;
+  justify-content: space-around;
+}
+.bg-black p {
+  color: white;
+}
+.bg-black h1 {
+  color: white;
+}
+.margin {
+  padding: 70px;
+}
+.top {
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.inptu {
+  padding: 10px;
+  background-color: #151414;
+}
+
+/* styled me */
+.heading {
+  font-size: 2.5rem;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.paragraph {
+  text-align: right;
+  font-size: 0.7rem;
+  margin-bottom: 10px;
+}
+
+.btn-contact {
+  padding: 10px 30px;
+  background-color: #f15b22;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.hero-info {
+  text-align: right;
+}
